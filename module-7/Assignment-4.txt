@@ -1,0 +1,35 @@
+Unit Testing with JUnit
+Objective: To introduce students to unit testing and the JUnit framework.
+
+Task: Unit testing is a fundamental practice in software development that ensures the correctness of individual components or units of code. In this assignment, you will write a simple Java class and create corresponding JUnit test cases to verify the class's behavior. You will practice writing test methods, setting up test fixtures, and running tests to ensure code correctness.
+
+Follow these steps:
+
+Java Class Creation:
+
+Create a new Java class that contains some functionality you want to test. For example, you can create a simple calculator class with methods for addition, subtraction, multiplication, and division.
+JUnit Setup:
+
+Add the JUnit library to your project if it's not already included. You can usually do this by adding the JUnit JAR files to your project's classpath.
+Test Class Creation:
+
+Create a new JUnit test class for your Java class. The test class should have methods that test various aspects of your Java class's functionality.
+Writing Test Methods:
+
+Write test methods in your test class to test different scenarios of your Java class's methods. For example, if you have a calculator class, you can write test methods to verify that addition, subtraction, multiplication, and division work correctly.
+Use JUnit's assertion methods (e.g., assertEquals, assertTrue, assertFalse, etc.) to verify that the actual results match the expected results.
+Test Fixture Setup:
+
+If your tests require any setup (e.g., creating instances of your Java class, initializing variables), use JUnit's @Before and @After annotations to set up and tear down the test fixture.
+You can also use the @BeforeClass and @AfterClass annotations for setup and teardown that are performed once for the entire test class.
+Running Tests:
+
+Run your JUnit tests using your IDE's built-in test runner or by executing the test class from the command line.
+Observe the test results to see if any tests fail. If a test fails, review the failure message to identify the issue.
+Test Iteration:
+
+If any tests fail, make necessary adjustments to your Java class to fix the issues, and then re-run the tests until all tests pass.
+Documentation:
+
+In your test class, provide comments and documentation explaining what each test method is testing and any relevant context.
+Submission: You are not required to submit this assignment. It is designed for you to practice writing JUnit tests and ensuring the correctness of your Java code.

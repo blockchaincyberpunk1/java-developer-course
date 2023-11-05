@@ -1,0 +1,46 @@
+Enhancing the Command-Line Application
+Objective: To build on the previous command-line application assignment and add more features.
+
+Task: In this assignment, you will extend the command-line utility you developed in Assignment 1 by adding additional commands or options. The goal is to enhance the functionality of your utility, providing users with more features and options for tasks related to your chosen domain.
+
+Assignment Instructions:
+
+Review Your Previous Command-Line Utility: Start by reviewing the command-line utility you created in Assignment 1. Ensure that it is fully functional and well-documented.
+
+Choose Additional Features: Select at least two new features, commands, or options to add to your command-line utility. These features should be related to the same domain or task as your initial utility.
+
+For example, if your initial utility was a file manipulation tool, you could add options for batch renaming files, deleting files by specific criteria, or compressing files.
+
+If your utility was a data processing tool, you might add features for advanced data filtering, sorting, or generating data summaries.
+
+For text analysis utilities, consider adding options for more complex pattern matching, generating word clouds, or analyzing sentiment.
+
+Modular Programming: Implement these new features as modular components of your utility. Each feature should be encapsulated in its own function or class, making the code modular and maintainable.
+
+Command-Line Interface (CLI): Update the command-line interface to accommodate the new features and options. Ensure that your utility provides clear instructions on how to use the added commands or options.
+
+Error Handling: Enhance your error handling mechanisms to cover the new features and potential issues related to them.
+
+Documentation: Update your user guide or README to include information about the new features, how to invoke them, and what users can expect from the utility.
+
+Testing: Thoroughly test your enhanced utility to ensure that all new features work as expected and that the original functionality remains intact.
+
+Code Quality: Maintain code quality by following Java best practices. Ensure that your code is well-organized, and use meaningful variable and function names.
+
+Submission: Submit the updated source code for your command-line utility, including any updated documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Enhanced Functionality: The added features should provide valuable functionality related to the chosen domain.
+
+Command-Line Interface: The CLI should effectively accommodate the new commands or options and provide clear usage instructions.
+
+Error Handling: Error handling should gracefully manage issues related to the new features.
+
+Documentation: The user guide or README should include clear instructions for using the new features.
+
+Testing: Thorough testing ensures that the utility works correctly and reliably.
+
+Code Quality: Maintain clean, well-structured code following Java best practices.

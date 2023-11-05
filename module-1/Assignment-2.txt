@@ -1,0 +1,44 @@
+Variable Declarations and Data Types
+Objective: To practice declaring variables and understanding data types in Java.
+
+Task: In this assignment, you will create a Java program that focuses on declaring variables of different data types (int, double, String, boolean) and assigning values to them. You will then print the values of these variables to the console. This assignment is designed to reinforce your understanding of variable declarations and basic data types in Java.
+
+Instructions:
+
+Create a Java Class: Write a Java class with the following structure:
+
+java
+Copy code
+public class VariableTypes {
+    public static void main(String[] args) {
+        // Your code goes here
+    }
+}
+Declare Variables: Inside the main method, declare variables of the following data types and assign values to them:
+
+int variable with an integer value.
+double variable with a decimal value.
+String variable with a string value.
+boolean variable with a boolean value (true or false).
+Print Values: Use the System.out.println method to print the values of these variables. You can display the variables in a user-friendly format by including appropriate text. For example:
+
+java
+Copy code
+System.out.println("Integer Variable: " + myInt);
+Compile and Run: Compile your Java program and execute it. Verify that the values of all declared variables are printed to the console.
+
+Submission: Submit your Java source code (the .java file) along with any comments or observations about your experience.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Variable Declarations: You should declare variables of the specified data types (int, double, String, boolean) and assign values to them.
+
+Output: The program should display the values of these variables to the console. Ensure that the output is clear and correctly formatted.
+
+Code Quality: The code should be well-organized and follow Java naming conventions. Use meaningful variable names and proper indentation.
+
+Execution: The program should execute without errors, and the output should match the expected format.
+
+Submission: The assignment should be submitted with all required files, and any relevant comments or observations should be included.

@@ -1,0 +1,59 @@
+Threads and Thread States: A Beginner's Guide to Concurrency in Java
+Concurrency is a powerful concept in programming that allows multiple tasks to execute simultaneously, improving performance and responsiveness. In Java, threads are the building blocks of concurrency. They enable you to write programs that can execute multiple tasks concurrently, making better use of modern hardware. In this article, we'll introduce you to the world of threads, discuss different thread states, and show you how to create threads using the Thread class.
+
+Understanding Threads
+A thread can be thought of as an independent path of execution within a program. It represents a single sequence of instructions that can be scheduled and executed by the operating system. In a program, you can have multiple threads running concurrently, each performing its own set of tasks. This is particularly useful in scenarios where you want to perform multiple tasks simultaneously, like handling user interactions while performing background computations.
+
+Thread States
+Threads can exist in various states during their lifecycle. Understanding these states is crucial for effective thread management. The main thread states in Java are:
+
+New: A thread is in this state immediately after it is created using the new keyword. It has not yet started executing.
+
+Runnable: In this state, a thread is ready to run, but the scheduler hasn't assigned it to a processor core yet. Threads in this state may be waiting for their turn to execute.
+
+Running: A thread enters this state when it is actively executing its code.
+
+Blocked: Threads can be in a blocked state when they are waiting for a certain condition to be satisfied, such as acquiring a lock to access a resource.
+
+Waiting: Threads enter this state when they are waiting for another thread to notify them. For example, when one thread waits for another to finish its work.
+
+Timed Waiting: Similar to the waiting state, but with a time limit. Threads in this state will automatically transition to runnable after a specified period.
+
+Terminated: A thread enters this state when it has completed its execution or is explicitly terminated using the Thread class's interrupt() method.
+
+Creating Threads
+In Java, you can create threads by extending the Thread class or by implementing the Runnable interface. Let's focus on the first approach: extending the Thread class.
+
+java
+Copy code
+class MyThread extends Thread {
+    public void run() {
+        // Code to be executed in the new thread
+        System.out.println("Thread is running!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread thread = new MyThread();
+        thread.start(); // Start the thread's execution
+    }
+}
+In this example, we create a new class MyThread that extends the Thread class. We override the run() method, which contains the code to be executed when the thread starts. In the main method, we create an instance of MyThread and call its start() method to begin its execution.
+
+Thread States in Action
+Let's see how thread states work using the example above. Initially, the MyThread instance is in the "New" state. When you call the start() method, the thread transitions to the "Runnable" state and waits for its turn to be scheduled. Once scheduled, it enters the "Running" state and executes the code in the run() method. After the code completes, the thread enters the "Terminated" state.
+
+It's important to note that you should never call the run() method directly. Always use the start() method to initiate the execution of a new thread. Calling run() directly would execute the code in the context of the current thread, not in a new thread.
+
+Key Takeaways
+As a beginner Java coder, understanding threads and their states is fundamental to mastering the art of concurrency. Here are the key takeaways from this article:
+
+Threads are the basic units of concurrency in Java.
+Threads can exist in various states, including "New," "Runnable," "Running," "Blocked," "Waiting," "Timed Waiting," and "Terminated."
+Extending the Thread class allows you to create threads and execute code concurrently.
+As you continue your journey in Java programming, dive deeper into the world of threads. Learn about thread synchronization, communication, and more advanced concepts to harness the full power of concurrency and build efficient and responsive applications.
+
+
+
+

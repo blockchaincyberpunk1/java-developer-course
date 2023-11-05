@@ -1,0 +1,51 @@
+Git Collaboration and Pull Requests
+Objective: To teach students collaborative Git workflows and pull requests.
+
+Task: Collaborative development is a crucial skill for software developers. In this assignment, you will work with a partner or in a small group to simulate a collaborative Git workflow. Each student will fork a repository, make changes in their forks, and create pull requests to contribute to each other's repositories.
+
+Follow these steps:
+
+Fork a Repository:
+
+Choose one student to create a new Git repository on a Git hosting platform (e.g., GitHub, GitLab, Bitbucket). This will be the "upstream" repository.
+Share the URL of the upstream repository with your partner or group members.
+Each student, including the one who created the upstream repository, should fork the upstream repository to create their own personal forks. These forks will be where you make your changes.
+Clone Your Fork:
+
+Clone your personal fork of the repository to your local machine using the git clone command.
+Set the upstream repository as a remote using the following command (replace <UpstreamURL> with the URL of the upstream repository):
+csharp
+Copy code
+git remote add upstream <UpstreamURL>
+Make Changes:
+
+Each student should make changes to the code or documentation in their fork. You can work on different features or modifications.
+Commit and Push:
+
+Commit your changes to your local fork and push them to your remote fork.
+Create a Pull Request:
+
+After making changes in your fork, visit the upstream repository's page on the Git hosting platform.
+Click on the "New Pull Request" button to create a pull request.
+Choose the branch from your fork that you want to merge into the upstream repository.
+Write a clear and descriptive pull request message explaining the changes you made.
+Review and Merge:
+
+Your partner or group members (or the student who owns the upstream repository) should review your pull request. They can comment on the changes and request modifications if needed.
+Once the pull request is approved, it can be merged into the upstream repository.
+Update Your Fork:
+
+After your changes are merged into the upstream repository, you should update your fork to include these changes. Use the following commands:
+css
+Copy code
+git fetch upstream
+git checkout main
+git merge upstream/main
+Repeat the Process:
+
+Each student should take turns creating pull requests and reviewing their partner's or group members' pull requests.
+Submission: For this assignment, there is no specific submission required. Your evaluation will be based on your active participation in the collaborative Git workflow and the successful creation and merging of pull requests.
+
+
+
+

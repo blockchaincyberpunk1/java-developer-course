@@ -1,0 +1,42 @@
+Git Branching and Merging
+Objective: To familiarize students with branching and merging workflows in Git.
+
+Task: Git provides powerful branching and merging capabilities that are essential for collaborative development. In this assignment, you will explore branching, making changes in different branches, and merging those changes back into the main branch. You will also practice resolving merge conflicts.
+
+Follow these steps:
+
+Branch Creation:
+
+Start with the Git repository you created in Assignment 1.
+Create a new branch in your repository. You can name it based on a feature or topic you'd like to work on. Use the following command to create and switch to a new branch (replace <BranchName> with your chosen branch name):
+css
+Copy code
+git checkout -b <BranchName>
+Verify that you are now in the new branch.
+Edit Files:
+
+In the new branch, make changes to one or more files in your project. These changes can be as simple as adding or modifying a few lines of code or text.
+Commit your changes to the branch with a descriptive commit message.
+Switch Branches:
+
+Switch back to the main branch using the following command:
+css
+Copy code
+git checkout main
+Ensure that the changes you made in the new branch are not present in the main branch.
+Merge Branch:
+
+Now, merge the changes from your new branch into the main branch. Use the following command (replace <BranchName> with the name of your branch):
+php
+Copy code
+git merge <BranchName>
+If there are no conflicts, Git will perform an automatic merge.
+Resolve Conflicts (If Any):
+
+In some cases, Git may not be able to automatically merge changes if there are conflicting modifications in the same part of a file in both branches.
+If a conflict arises, Git will provide instructions in your text editor. Manually edit the conflicting file to resolve the conflict.
+After resolving the conflict, save the file, add it to the staging area using git add, and commit the changes.
+Final Push:
+
+After successfully merging or resolving conflicts, push the changes in the main branch to the remote repository.
+Submission: For this assignment, you don't need to submit any materials. It's meant for your practice and understanding of branching and merging in Git. Ensure that you can confidently create branches, make changes, merge branches, and resolve conflicts as you will use these skills extensively in collaborative software development.

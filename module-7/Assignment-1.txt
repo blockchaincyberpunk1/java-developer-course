@@ -1,0 +1,44 @@
+Setting Up Git
+Objective: To ensure students can set up and configure Git on their local machines.
+
+Task: Setting up Git is an essential skill for any software developer. In this assignment, you will familiarize yourself with Git by completing the following tasks:
+
+Git Installation: If you haven't already, download and install Git on your local machine. You can download Git from the official website: https://git-scm.com/downloads.
+
+Git Configuration: Open your command-line interface (CLI) or terminal and configure Git with your name and email. Use the following commands, replacing <Your Name> and <Your Email> with your actual name and email address:
+
+arduino
+Copy code
+git config --global user.name "<Your Name>"
+git config --global user.email "<Your Email>"
+Create a Git Repository: Create a new directory (folder) on your computer for this assignment. Inside this directory, initialize a new Git repository using the following command:
+
+csharp
+Copy code
+git init
+Create a README File: Create a README.md file in your repository directory. You can do this manually or by using command-line text editors like nano, vim, or any text editor of your choice.
+
+Edit README.md: Open the README.md file and add some text. You can include a brief introduction about yourself, your interests, or any topic of your choice.
+
+Stage and Commit: Stage the README.md file for commit using the following command:
+
+csharp
+Copy code
+git add README.md
+Then, commit the changes with a meaningful commit message:
+
+sql
+Copy code
+git commit -m "Initial commit: Added README.md"
+Create a Remote Repository: Sign up or log in to a remote Git hosting service like GitHub (https://github.com) or GitLab (https://gitlab.com).
+
+Push to Remote: Follow the instructions provided by the remote Git hosting service to create a new repository. Once the remote repository is created, push your local repository to the remote using the following command (replace <YourRepoURL> with your repository URL):
+
+css
+Copy code
+git remote add origin <YourRepoURL>
+git branch -M main
+git push -u origin main
+Verify on Remote: Visit your remote repository on the hosting service's website (e.g., GitHub or GitLab) to ensure that your README.md file is visible.
+
+Submission: Once you have completed these tasks, take screenshots of your terminal showing the steps you followed (including Git configuration, initializing the repository, committing, and pushing to the remote). Additionally, provide the URL to your remote repository (e.g., GitHub or GitLab). Compile these materials into a document or presentation and submit it according to your instructor's guidelines.

@@ -1,0 +1,40 @@
+Parallel Programming with Fork/Join
+Objective: To introduce parallel programming using Java's Fork/Join framework.
+
+Task: In this assignment, you will explore parallel programming in Java by parallelizing a computationally intensive problem using Java's Fork/Join framework. This framework is particularly useful for dividing a problem into subtasks and processing them in parallel to improve performance.
+
+Instructions:
+
+Choose a Computationally Intensive Problem: You can choose one of the following problems or a similar problem that is computationally intensive:
+
+Fibonacci Calculation: Implement a program to calculate Fibonacci numbers using recursion. This task becomes computationally expensive for large Fibonacci numbers.
+Parallel Search: Create a program that performs a parallel search in a large dataset. For example, you can search for a specific value in an array or list concurrently.
+Parallelize the Solution: Using Java's Fork/Join framework, parallelize the solution to your chosen problem. Divide the problem into smaller subproblems that can be solved concurrently. Implement recursive tasks and a fork/join strategy to execute these tasks in parallel.
+
+Threading and Concurrency: Pay attention to thread management, synchronization, and concurrency control in your code. Ensure that threads are properly synchronized and that you avoid race conditions.
+
+Testing: Thoroughly test your parallelized solution to ensure correctness and performance improvements. Compare the execution time of the parallelized solution with a non-parallel version to demonstrate the performance gain.
+
+Documentation: Include comments and documentation in your code to explain how you have parallelized the solution, how Fork/Join tasks are structured, and how you have ensured thread safety.
+
+Performance Analysis: Provide a performance analysis of your parallelized solution, including execution times for different input sizes. Discuss the speedup achieved through parallelism.
+
+Submission: Submit the source code file (.java) for your parallelized solution, including any additional documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Correctness: Your parallelized solution should correctly solve the chosen problem without errors or exceptions.
+
+Parallelization: The code should effectively use Java's Fork/Join framework to parallelize the solution.
+
+Concurrency Handling: You should demonstrate an understanding of thread management and synchronization to ensure thread safety.
+
+Testing: Thorough testing should be conducted to verify the correctness and performance improvements of the parallelized solution.
+
+Documentation: The code should include comments and documentation explaining how the solution was parallelized and how thread safety was ensured.
+
+Performance Analysis: A performance analysis should be included, demonstrating the speedup achieved through parallelism.
+
+Submission: The assignment should be submitted with the required source code file and any additional documentation.

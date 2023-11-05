@@ -1,0 +1,28 @@
+Java Language Updates
+Objective: To keep students informed about Java language updates and features.
+
+Task: The Java programming language evolves continuously with the introduction of new features, enhancements, and updates in each version. Staying up-to-date with these changes is essential for Java developers. In this assignment, you will explore and summarize significant changes introduced in recent versions of the Java language (e.g., Java 9, 10, 11, or later).
+
+Follow these steps:
+
+Version Selection:
+
+Choose a recent version of the Java language to focus on. You can select Java 9, 10, 11, or a later version.
+Feature Research:
+
+Research and identify the most significant language features, enhancements, or changes introduced in the chosen Java version. Focus on features that impact Java development practices.
+Impact Analysis:
+
+Explain the impact of these language changes on Java development. Discuss how they improve code readability, maintainability, performance, or security.
+Real-World Examples:
+
+Provide real-world examples or use cases for each of the identified features. Show how these features can be applied in practical Java code.
+Presentation:
+
+Prepare a presentation or document summarizing your findings. Include clear explanations, code snippets, and practical examples to illustrate the usage of the identified features.
+Discussion:
+
+If the assignment includes a presentation component, be prepared to present your findings to the class or discuss them with your instructor and peers. Engage in discussions about the implications of these language updates.
+Questions and Reflection:
+
+Conclude your presentation or document with a section for questions and reflections. Encourage questions and discussions about the Java language updates.

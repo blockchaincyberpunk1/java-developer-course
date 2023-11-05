@@ -1,0 +1,34 @@
+Exception Handling
+Objective: To introduce error handling using exception handling in Java.
+
+Task: In this assignment, you will explore exception handling in Java by working with a program that intentionally generates exceptions. Your task is to modify the program to catch and handle these exceptions gracefully, providing appropriate error messages.
+
+Instructions:
+
+Starter Program: You will be provided with a Java program that contains intentional exceptions. The program might perform operations like division by zero or access elements of an array out of bounds, causing exceptions to be thrown.
+
+Exception Handling: Your task is to identify the specific exceptions that are being thrown and catch them using appropriate try-catch blocks. Handle each exception gracefully by providing informative error messages to the user. For example, if a division by zero exception occurs, you should catch it and display a message like "Cannot divide by zero."
+
+Multiple Exceptions: The starter program may contain multiple places where exceptions can occur. Ensure that you catch and handle each type of exception separately. Use multiple catch blocks if necessary.
+
+Testing: Test your modified program by deliberately causing exceptions (e.g., providing invalid input) to ensure that the exceptions are caught and appropriate error messages are displayed.
+
+Documentation: Provide comments and documentation in your code to explain the purpose of each try-catch block and the type of exception it is handling.
+
+Submission: Submit the source code file (.java) along with a brief explanation of the exceptions you encountered, the error messages you provided, and how you handled each exception.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Exception Handling: The program should correctly catch and handle exceptions that occur during its execution.
+
+Error Messages: Error messages should be informative and relevant to the type of exception caught.
+
+Multiple Exceptions: If the starter program contains multiple places where exceptions can occur, each type of exception should be handled separately.
+
+Testing: The program should be tested to ensure that exceptions are caught and appropriate error messages are displayed when needed.
+
+Code Quality: The code should be well-structured, follow Java naming conventions, and include comments and documentation.
+
+Submission: The assignment should be submitted with the required source code file and explanations of the exceptions encountered and how they were handled.

@@ -1,0 +1,46 @@
+Exception Handling in Real Applications
+Objective: To apply exception handling concepts in practical scenarios.
+
+Task: In this assignment, you will work on a small application that reads data from a file, performs calculations, and writes results to another file. Your task is to handle potential exceptions related to file input/output, data validation, and arithmetic operations gracefully, using try-catch blocks.
+
+Instructions:
+
+Application Description: You are tasked with creating an application that reads a list of numbers from an input text file, calculates their average, and writes the result to an output text file.
+
+Input File: Create an input text file (e.g., input.txt) containing a list of integers, one per line. Ensure the file includes valid and invalid data (e.g., non-numeric values) to simulate different exceptions.
+
+Output File: Create an output text file (e.g., output.txt) where you will write the calculated average as a floating-point number.
+
+Java Application: Write a Java program that performs the following steps:
+
+Reads the input file line by line, parsing each line as an integer.
+Calculates the average of the valid integers.
+Writes the average to the output file.
+Exception Handling: Implement exception handling using try-catch blocks for the following scenarios:
+
+File Input/Output Exception: Handle exceptions related to file operations (e.g., FileNotFoundException, IOException) when opening, reading, or writing to files.
+Data Validation Exception: Handle exceptions that occur when parsing non-integer data from the input file.
+Arithmetic Exception: Handle exceptions that may occur when dividing by zero (e.g., if there are no valid numbers).
+Logging: Include appropriate error messages and log exceptions to the console or a log file.
+
+Testing: Test your application with different input files, including those with valid and invalid data.
+
+Documentation: Include comments and documentation in your code to explain how the application works, where exceptions may occur, and how they are handled.
+
+Submission: Submit the source code file (.java) for your application along with sample input and output files.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Exception Handling: The application should effectively handle exceptions related to file input/output, data validation, and arithmetic operations.
+
+Functionality: The application should correctly read data from the input file, calculate the average of valid integers, and write the result to the output file.
+
+Logging: The application should provide appropriate error messages and log exceptions to aid in debugging.
+
+Testing: The application should be tested with various input files to ensure it handles different scenarios.
+
+Code Quality: The code should be well-structured, follow Java naming conventions, and include comments and documentation.
+
+Submission: The assignment should be submitted with the required source code file, sample input and output files, and any additional documentation.

@@ -1,0 +1,45 @@
+Open-Source Contribution
+Objective: To promote open-source contributions and collaboration within the Java community.
+
+Task: Open-source software plays a vital role in the Java development ecosystem. In this assignment, you will have the opportunity to contribute to an open-source Java project of your choice. Your goal is to make a meaningful contribution, learn from experienced developers, and gain hands-on experience with collaborative software development practices.
+
+Follow these steps:
+
+Project Selection:
+
+Browse popular Java open-source projects on platforms like GitHub, GitLab, or Bitbucket.
+Select a project that interests you and aligns with your skills and interests. Make sure the project actively accepts contributions.
+Contribution:
+
+Choose a contribution type that suits your skills and the project's needs. Some common contributions include:
+Fixing a bug.
+Implementing a new feature.
+Improving project documentation.
+Enhancing code quality through refactoring.
+Familiarize Yourself with the Project:
+
+Study the project's documentation, codebase, and contribution guidelines.
+Join the project's communication channels, such as mailing lists or chat platforms, to introduce yourself and seek guidance if needed.
+Contribution Implementation:
+
+Implement your contribution following best practices, coding standards, and guidelines provided by the project.
+Create a new branch for your contribution, make changes, and commit your work with clear and descriptive commit messages.
+Testing:
+
+Ensure that your contribution works as intended.
+Write tests if necessary and make sure existing tests pass.
+Documentation:
+
+If you're improving documentation, ensure that it's clear, concise, and follows the project's documentation style.
+Pull Request:
+
+Create a pull request (PR) for your contribution.
+Write a clear and informative PR description that explains the purpose and scope of your changes.
+Address any feedback or code review comments from the project maintainers.
+Documentation of Your Contribution:
+
+Document your contribution process, including the steps you followed, challenges you faced, and how you addressed them.
+Reflect on the experience and what you learned from contributing to an open-source project.
+Presentation (Optional):
+
+You are not required to submit this assignment. However, if you feel comfortable, you can share your contribution experiences and insights with your instructor or peers through a short presentation.

@@ -1,0 +1,48 @@
+Spring Boot Web Application
+Objective: To introduce students to Spring Boot for web development.
+
+Task: In this assignment, you will create a basic web application using Spring Boot. You can choose to build either a RESTful API or a simple CRUD (Create, Read, Update, Delete) application. Spring Boot provides powerful features for routing, request handling, and data storage, making it an excellent choice for modern web development.
+
+Assignment Instructions:
+
+Set Up Your Development Environment: Ensure that you have a Java development environment set up, including an IDE (e.g., IntelliJ IDEA, Eclipse) and Maven or Gradle for managing dependencies.
+
+Create a New Spring Boot Project: Use Spring Initializr or your IDE to create a new Spring Boot project. Select the necessary dependencies based on whether you want to build a RESTful API or a CRUD application.
+
+Develop a RESTful API or CRUD Application: Choose one of the following options:
+
+Option 1: RESTful API
+
+Design a set of RESTful endpoints for a specific domain (e.g., a bookstore, a to-do list).
+Implement controllers that handle HTTP requests and return JSON responses.
+Include basic CRUD operations such as creating, reading, updating, and deleting resources.
+Add error handling and validation for incoming requests.
+Option 2: CRUD Application
+
+Create a simple CRUD application for managing entities (e.g., books, tasks) with a web-based user interface.
+Implement features for adding, viewing, updating, and deleting records.
+Ensure proper navigation between different pages or views.
+Include form validation to handle user input gracefully.
+Database Integration (Optional): If you're building a CRUD application, consider integrating a database (e.g., H2, MySQL) to persist and retrieve data. Spring Boot makes it easy to set up data sources and repositories.
+
+Testing: Thoroughly test your Spring Boot application to ensure that it behaves as expected. Test both successful and error scenarios.
+
+Documentation: Include comments and documentation in your code to explain the purpose of classes, methods, and endpoints. Provide clear instructions on how to run and test your application.
+
+Submission: Submit the source code for your Spring Boot application, along with any additional documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Functionality: Your Spring Boot application should provide the intended functionality, whether it's a RESTful API or a CRUD application.
+
+Code Quality: Write clean, well-structured code following Java and Spring Boot best practices.
+
+Database Integration (if applicable): If you choose to integrate a database, ensure that data is stored and retrieved correctly.
+
+Testing: Thoroughly test your application to verify its correctness. Test both normal and edge cases.
+
+Documentation: Include comments and documentation in your code to explain its functionality and how to run the application.
+
+Submission: Submit the source code for your Spring Boot application and any additional documentation.

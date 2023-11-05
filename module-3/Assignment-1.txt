@@ -1,0 +1,40 @@
+ArrayList Manipulation
+Objective: To reinforce understanding of Java collections, specifically ArrayList.
+
+Task: In this assignment, you will work with ArrayList, one of the most commonly used collections in Java. You will perform various operations, including adding elements, removing elements, searching, and sorting.
+
+Instructions:
+
+ArrayList Creation: Create an ArrayList to store elements of a specific data type (e.g., integers, strings).
+
+Add Elements: Populate the ArrayList with at least 10 elements. You can manually add elements or generate them programmatically.
+
+Display Elements: Write a program to display all the elements in the ArrayList.
+
+Remove Elements: Implement functionality to remove elements based on specific conditions (e.g., remove all even numbers or remove elements greater than a certain value).
+
+Search Elements: Write methods to search for elements in the ArrayList. Implement both linear and binary search algorithms to find a specific element.
+
+Sorting: Implement sorting algorithms (e.g., bubble sort, insertion sort) to arrange the elements in ascending or descending order. Provide options for the user to choose the sorting algorithm.
+
+User Interaction: Create a user-friendly command-line interface that allows users to interact with the ArrayList. They should be able to add, remove, search, and sort elements based on their preferences.
+
+Testing: Thoroughly test your program to ensure that all operations are working correctly.
+
+Documentation: Include comments and documentation in your code to explain the purpose of each method and how the ArrayList is manipulated.
+
+Submission: Submit the source code file (.java) along with a brief report describing the features of your ArrayList manipulation program and any challenges you faced during implementation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+ArrayList Manipulation: The program should correctly create, add, remove, search, and sort elements in the ArrayList.
+
+User Interaction: The command-line interface should be user-friendly and allow users to perform all required operations.
+
+Testing: The program should be thoroughly tested to ensure that all operations work as expected.
+
+Code Quality: The code should be well-structured, follow Java naming conventions, and include comments and documentation.
+
+Submission: The assignment should be submitted with the required source code file and a brief report describing the program's features and any challenges encountered.

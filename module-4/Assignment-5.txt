@@ -1,0 +1,47 @@
+ Thread Synchronization in Banking
+Objective: To practice thread synchronization in a real-world context.
+
+Task: In this assignment, you will explore the challenges of thread synchronization in a scenario involving multiple bank accounts accessed and modified by multiple threads concurrently. The objective is to write a Java program that simulates these interactions while ensuring thread safety through synchronization mechanisms.
+
+Scenario:
+
+Imagine a banking system where multiple customers have bank accounts. These accounts can be accessed for transactions such as withdrawals and deposits. However, to maintain data integrity and avoid race conditions, proper thread synchronization is essential.
+
+Assignment Instructions:
+
+Create a Bank Account Class: Design a Java class representing a bank account. The class should include methods for depositing and withdrawing funds. Ensure that these methods are synchronized to prevent data corruption in a multi-threaded environment.
+
+Create Customer Threads: Simulate multiple customers who initiate concurrent transactions (e.g., withdrawals and deposits) on their accounts. Create Java threads to represent these customers. Each thread should perform multiple transactions over time.
+
+Implement Transactions: In the customer threads, implement transactions (e.g., withdrawals and deposits) on their accounts. These transactions should be designed to trigger scenarios where thread synchronization is necessary, such as:
+
+Simultaneous withdrawals and deposits.
+Overdrawing attempts.
+Concurrent transactions on the same account.
+Thread Synchronization: Use synchronization mechanisms (e.g., synchronized methods, locks) to ensure that multiple threads cannot access and modify the same bank account simultaneously. This is crucial to maintain data consistency.
+
+Logging and Reporting: Implement logging and reporting mechanisms to track each transaction and its result. For example, you can log the customer's name, transaction type, amount, and the account's balance after the transaction.
+
+Testing: Thoroughly test your program with multiple customer threads conducting various transactions. Verify that the synchronization mechanisms prevent issues such as negative balances or incorrect account data.
+
+Documentation: Include comments and documentation in your code to explain how synchronization is achieved and how thread safety is ensured.
+
+Submission: Submit the source code file (.java) for your program, along with any additional documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Thread Synchronization: The code should correctly use synchronization mechanisms to ensure thread safety during concurrent transactions.
+
+Correctness: Your program should accurately simulate bank transactions without issues like negative balances or incorrect data.
+
+Concurrency Handling: Demonstrated understanding of how to manage multiple threads accessing shared resources safely.
+
+Logging and Reporting: The program should provide clear logs and reports of transactions, including customer names, transaction types, amounts, and balances.
+
+Testing: Thorough testing should be conducted to verify the correctness and effectiveness of the synchronization mechanisms.
+
+Documentation: The code should include comments and documentation explaining how synchronization is achieved and how thread safety is ensured.
+
+Submission: The assignment should be submitted with the required source code file and any additional documentation.

@@ -1,0 +1,31 @@
+Exploring Java Libraries
+Objective: To encourage students to explore Java libraries and frameworks.
+
+Task: Java development often involves utilizing libraries and frameworks to simplify complex tasks and enhance productivity. In this assignment, students will have the opportunity to explore a Java library or framework of their choice. They will study its documentation, create a small project or code example demonstrating the library's usage, and write a brief report explaining its benefits and use cases.
+
+Follow these steps:
+
+Library/Framework Selection:
+
+Each student should choose a Java library or framework that interests them. The choice is open, but it should be relevant to Java development (e.g., Spring Framework, Hibernate, Apache Kafka, Guava, Lombok, etc.).
+Documentation Study:
+
+Instruct students to thoroughly study the official documentation of their chosen library/framework. They should understand its core features, components, and functionalities.
+Small Project/Code Example:
+
+Ask students to create a small project or code example that showcases the usage of the library/framework. The project should demonstrate how to integrate the library into a Java application and use its features effectively.
+Report Writing:
+
+Students should write a brief report (approximately 2-3 pages) summarizing their findings. The report should include:
+An introduction to the selected library/framework.
+Explanation of its main features and capabilities.
+A description of the small project or code example they created.
+Use cases and scenarios where the library/framework can be beneficial.
+Any notable advantages and potential drawbacks.
+References to the official documentation and other relevant resources.
+Presentation (Optional):
+
+If time allows, students can present their findings to the class, sharing their experiences, insights, and demonstrating the code example they created.
+Discussion:
+
+Encourage class discussions where students can share their discoveries, ask questions, and explore potential applications of different libraries/frameworks.

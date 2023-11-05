@@ -1,0 +1,37 @@
+Functions and Methods
+Objective: To introduce the concept of functions (methods) in Java.
+
+Task: In this assignment, you will create a Java program that focuses on defining and using methods (functions). Your task is to write a Java class that includes a method to calculate the factorial of a number. You should then call this method with different input values and display the results.
+
+Instructions:
+
+Create a Java Class: Write a Java class with the following structure:
+
+java
+Copy code
+public class FactorialCalculator {
+    // Your methods will go here
+}
+Define a Method: Inside the FactorialCalculator class, define a method named calculateFactorial that takes an integer parameter (the number for which you want to calculate the factorial). The method should return an integer, which is the factorial of the input number.
+
+Implement the Method: Implement the calculateFactorial method using a loop (e.g., for or while) to calculate the factorial of the input number.
+
+Use the Method: Inside the main method of the same class, call the calculateFactorial method with different input values (e.g., 5, 7, 10) and display the results. You can use the System.out.println statement to print the results to the console.
+
+Compile and Run: Compile your Java program and execute it. Test the calculateFactorial method with various input values to ensure it correctly calculates factorials.
+
+Submission: Submit your Java source code (the .java file) along with any comments or observations about your experience.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Method Definition: The program should define a method named calculateFactorial that correctly calculates the factorial of an input number.
+
+Method Usage: The calculateFactorial method should be called with different input values, and the results should be displayed accurately.
+
+Code Quality: The code should be well-organized, and the method should have a clear purpose. Use meaningful variable names and proper indentation.
+
+Execution: The program should execute without errors and provide the correct factorial results for different input values.
+
+Submission: The assignment should be submitted with all required files, and any relevant comments or observations should be included.

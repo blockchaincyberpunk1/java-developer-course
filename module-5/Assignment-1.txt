@@ -1,0 +1,42 @@
+Servlet Basics
+Objective: To introduce students to Servlets.
+
+Task: In this assignment, you will create a simple Java web application that uses Servlets to handle HTTP requests. This assignment is designed to familiarize you with the basics of Servlets, which are essential components in Java-based web development.
+
+Assignment Instructions:
+
+Set Up Your Development Environment: Ensure that you have a Java development environment (e.g., Eclipse, IntelliJ IDEA, or any IDE of your choice) and a servlet container (e.g., Apache Tomcat) installed.
+
+Create a New Dynamic Web Project: Start by creating a new dynamic web project in your chosen IDE.
+
+Create a Servlet Class: Create a Java class that extends javax.servlet.http.HttpServlet. This class will serve as your servlet. You can choose to build either a "Hello World" servlet or a servlet that performs simple calculations based on user input.
+
+Handle HTTP Requests: Implement the doGet or doPost method within your servlet class to handle HTTP requests. Depending on your chosen task (e.g., displaying a message or performing calculations), your servlet should generate an appropriate response.
+
+Configure Deployment Descriptor (web.xml): If your IDE doesn't generate the web.xml deployment descriptor automatically, create it manually and configure the servlet mapping.
+
+Build a Basic HTML Form (Optional): If you choose to create a servlet that takes user input, design a basic HTML form that sends data to your servlet via HTTP requests.
+
+Test Your Servlet: Deploy your web application on the servlet container (e.g., Tomcat) and access it through a web browser. Test the functionality of your servlet by making HTTP requests and verifying the responses.
+
+Documentation: Include comments and documentation in your code to explain how your servlet works and how it handles HTTP requests.
+
+Submission: Submit the source code files (Java classes) for your servlet, the web.xml deployment descriptor (if used), and any additional documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Servlet Functionality: Your servlet should correctly handle HTTP requests and generate appropriate responses, whether it's displaying a message or performing calculations.
+
+Configuration: Proper configuration of the servlet within the web.xml deployment descriptor (if used).
+
+HTTP Handling: Demonstrated understanding of how to handle HTTP requests and responses in a servlet.
+
+HTML Form (if applicable): If you include an HTML form, ensure it correctly sends data to the servlet.
+
+Testing: Thorough testing should be conducted to verify the correctness of your servlet.
+
+Documentation: The code should include comments and documentation explaining how the servlet works and how it handles HTTP requests.
+
+Submission: The assignment should be submitted with the required source code files (Java classes), the web.xml deployment descriptor (if used), and any additional documentation.

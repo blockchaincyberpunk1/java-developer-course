@@ -1,0 +1,42 @@
+Stream Processing
+Objective: To practice using Java Streams for data processing.
+
+Task: In this assignment, you will work with a dataset provided to you. Your task is to use Java Streams to perform various operations on the dataset, such as filtering, mapping, sorting, and reducing. This assignment is designed to help you become comfortable with functional programming in Java and leverage the power of Streams for data processing.
+
+Instructions:
+
+Dataset: You will be provided with a dataset, which can be a list of numbers, strings, or objects, depending on the assignment variant.
+
+Operations: Your task is to implement the following operations on the dataset using Java Streams:
+
+Filtering: Use the filter operation to extract specific elements from the dataset based on a given condition. For example, filter out even numbers, select strings containing a specific substring, or choose objects meeting specific criteria.
+
+Mapping: Utilize the map operation to transform elements of the dataset into a different format. You can perform operations like converting numbers to their squares, capitalizing the first letter of strings, or extracting specific attributes from objects.
+
+Sorting: Employ the sorted operation to sort the elements of the dataset according to a defined order. You can sort numbers in ascending or descending order, alphabetically order strings, or customize the sorting criteria for objects.
+
+Reducing: Use the reduce operation to perform aggregation or calculations on the dataset, resulting in a single value. For instance, find the sum of numbers, concatenate all strings, or compute the maximum or minimum value of a dataset.
+
+Functional Approach: Make use of functional programming concepts while implementing these operations. You should create streams, apply operations in a declarative manner, and avoid mutable state whenever possible.
+
+Testing: Thoroughly test your code with different datasets and scenarios to ensure that the stream operations produce the expected results.
+
+Documentation: Include comments and documentation in your code to explain the purpose of each operation and how it is applied to the dataset.
+
+Assignment Variants: Depending on your course instructor's choice, you will work with datasets of numbers, strings, or objects. Ensure you follow the specific dataset and task requirements provided to you.
+
+Submission: Submit the source code file (.java) for your implementation along with any additional documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Correctness: Your code should correctly implement the filtering, mapping, sorting, and reducing operations on the given dataset.
+
+Functional Programming: Your code should follow functional programming principles, including the use of Streams and avoiding mutable state.
+
+Testing: Thorough testing should be conducted to verify that the stream operations produce the expected results for different scenarios.
+
+Documentation: The code should include comments and documentation explaining the purpose of each operation and how it is applied to the dataset.
+
+Submission: The assignment should be submitted with the required source code file and any additional documentation.

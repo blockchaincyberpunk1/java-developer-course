@@ -1,0 +1,40 @@
+Object-Oriented Programming Concepts
+Objective: To reinforce understanding of object-oriented programming (OOP) concepts in Java.
+
+Task: In this assignment, you will explore key object-oriented programming (OOP) concepts by defining a Java class that represents a real-world object. You will define attributes (fields) and behaviors (methods) of this object, create instances of the class, and demonstrate object instantiation and method invocation.
+
+Instructions:
+
+Choose an Object: Select a real-world object that you want to represent in your Java program. This could be a car, a book, a mobile phone, or any other object of your choice.
+
+Define a Class: Create a Java class with a meaningful name (e.g., Car, Book, MobilePhone) that represents the chosen object. Inside this class, define attributes (fields) that describe the object's characteristics. For example, if you chose a car, you might have fields like make, model, year, color, etc.
+
+Behaviors (Methods): Implement methods (behaviors) within the class that represent actions the object can perform. For example, if you chose a car, you might have methods like startEngine(), accelerate(), brake(), etc. These methods can print messages to simulate the actions.
+
+Instantiate Objects: In the main method of your Java program, create one or more instances of your class by calling its constructor. Initialize the object's attributes with sample values.
+
+Method Invocation: Demonstrate the use of object-oriented concepts by invoking methods on the created instances. For example, if you chose a car, you can create a car object, call the startEngine() method, and display a message like "The car's engine is running."
+
+Compile and Run: Compile your Java program and execute it to observe the behavior of the objects you've created and the methods you've invoked.
+
+Submission: Submit your Java source code (the .java file) along with a brief explanation of the object you chose, the attributes you defined, the behaviors (methods) you implemented, and the output of your program demonstrating method invocation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Object Representation: The chosen real-world object should be clearly defined with meaningful attributes and behaviors.
+
+Attribute Definition: The attributes (fields) of the class should accurately describe the characteristics of the object.
+
+Method Implementation: The methods (behaviors) should be implemented correctly and demonstrate actions related to the chosen object.
+
+Object Instantiation: The program should create instances of the class and initialize their attributes.
+
+Method Invocation: The program should invoke methods on the created objects, demonstrating the object-oriented concept of behavior encapsulation.
+
+Code Quality: The code should be well-organized, use proper naming conventions, and be free of syntax errors.
+
+Execution: The program should execute without errors and provide meaningful output demonstrating the object's behaviors.
+
+Submission: The assignment should be submitted with all required files and a clear explanation of the chosen object, its attributes, behaviors, and the output of the program.

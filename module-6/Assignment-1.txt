@@ -1,0 +1,41 @@
+Command-Line Utility
+Objective: To develop a practical command-line application in Java.
+
+Task: In this assignment, you will create a command-line utility in Java that performs a specific task. This task could be related to file manipulation, data processing, or text analysis. Your goal is to develop a functional and user-friendly command-line application.
+
+Assignment Instructions:
+
+Choose a Task: Select a specific task that your command-line utility will perform. Here are some task ideas, but feel free to choose one that interests you:
+
+File manipulation: Renaming files, copying files, or searching for files.
+Data processing: Calculating statistics on a dataset, parsing CSV files, or converting data formats.
+Text analysis: Counting word occurrences in text files, finding and replacing text patterns, or generating reports from text data.
+Implement the Command-Line Interface (CLI): Create a user-friendly command-line interface that accepts user input and displays information. Use Java's Scanner or a similar library to handle user input.
+
+Functionality: Implement the core functionality of your utility based on the chosen task. Ensure that it fulfills the requirements and provides meaningful results.
+
+Error Handling: Implement error handling to gracefully handle invalid input or potential errors during the task execution. Use try-catch blocks or other relevant mechanisms.
+
+Documentation: Include a user guide or README that explains how to run and use your command-line utility. Provide examples of valid commands and expected outcomes.
+
+Testing: Test your command-line utility thoroughly to ensure that it works as expected and handles various scenarios correctly.
+
+Code Quality: Write clean, well-structured code following Java best practices. Use meaningful variable names and add comments where necessary to explain your code.
+
+Submission: Submit the source code for your command-line utility, along with any necessary documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Functionality: Your command-line utility should successfully perform the chosen task.
+
+Command-Line Interface: The CLI should be user-friendly and handle input effectively.
+
+Error Handling: Your utility should gracefully handle invalid input and potential errors during execution.
+
+Documentation: Include clear instructions on how to run and use your utility, including examples.
+
+Testing: Thoroughly test your utility to verify its correctness.
+
+Code Quality: Write clean, well-structured code following Java best practices.

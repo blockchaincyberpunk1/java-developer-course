@@ -1,0 +1,43 @@
+Basic Java Syntax
+Objective: To introduce students to basic Java syntax and program structure.
+
+Task: In this assignment, you will create a Java program that focuses on basic Java syntax, including user input, variable declarations, simple calculations, and displaying results. Your task is to write a Java class that takes two numbers as user input, performs basic arithmetic operations (addition, subtraction, multiplication), and displays the results to the user.
+
+Instructions:
+
+Create a Java Class: Write a Java class with the following structure:
+
+java
+Copy code
+import java.util.Scanner;
+
+public class BasicCalculator {
+    // Your methods will go here
+}
+Ensure you import the java.util.Scanner class to handle user input.
+
+User Input: Inside the BasicCalculator class, create a method (e.g., getUserInput) that uses the Scanner class to take input from the user for two numbers. Prompt the user to enter two numbers, one at a time.
+
+Arithmetic Operations: Implement methods for addition, subtraction, and multiplication. Create methods like add, subtract, and multiply that take the two numbers as parameters and return the results.
+
+Display Results: In the main method of the same class, call the getUserInput method to get the user's input. Then, call the methods for addition, subtraction, and multiplication with the user's input and display the results using System.out.println.
+
+Compile and Run: Compile your Java program and execute it. Test it with various input values to ensure it correctly performs arithmetic operations and displays results.
+
+Submission: Submit your Java source code (the .java file) along with any comments or observations about your experience.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+User Input: The program should take user input for two numbers accurately.
+
+Arithmetic Operations: The program should implement methods for addition, subtraction, and multiplication that correctly calculate the results.
+
+Display Results: The program should display the arithmetic results accurately using System.out.println.
+
+Code Quality: The code should be well-organized, use meaningful variable names, and have proper indentation.
+
+Execution: The program should execute without errors and provide correct arithmetic results for various input values.
+
+Submission: The assignment should be submitted with all required files, and any relevant comments or observations should be included.

@@ -1,0 +1,55 @@
+Simple Desktop GUI Application (Java Swing)
+Objective: To introduce students to Java Swing for building desktop GUI applications.
+
+Task: In this assignment, you will create a simple desktop application with a graphical user interface (GUI) using Java Swing. The goal is to build a basic but functional application that demonstrates your understanding of GUI components and user interaction in Java.
+
+Assignment Instructions:
+
+Choose the Application Type: Select the type of desktop application you want to create. Here are a few ideas:
+
+Calculator: Build a basic calculator with buttons for numbers and common operations.
+Text Editor: Create a simple text editor that allows users to create, edit, and save text documents.
+To-Do List: Develop a to-do list application where users can add, edit, and remove tasks.
+Image Viewer: Design an image viewer that displays images from a specified directory.
+Note-taking App: Create a note-taking application with a user-friendly interface for adding and managing notes.
+Any other application that interests you and showcases GUI components.
+Use Java Swing: Implement the GUI of your application using Java Swing components. You should include components like buttons, labels, text fields, text areas, and any other relevant components depending on your chosen application type.
+
+Functionality: Ensure that your application provides basic functionality based on its type. For example:
+
+For a calculator, it should perform arithmetic calculations based on user input.
+For a text editor, it should allow users to create, edit, and save text documents.
+For a to-do list, it should enable users to add, edit, and remove tasks.
+User Interaction: Implement event handling to capture user interactions with GUI components. Use listeners and handlers to respond to button clicks, text input, or other relevant actions.
+
+Error Handling: Implement error handling to handle potential issues gracefully. For example, if a user tries to perform an invalid operation in a calculator, display an error message.
+
+Design and Layout: Pay attention to the design and layout of your application. Ensure that it has an organized and user-friendly appearance. You can use layout managers (e.g., BorderLayout, GridLayout) to arrange components.
+
+Documentation: Include comments and documentation in your code to explain the functionality of different components and classes.
+
+Testing: Thoroughly test your desktop application to ensure that it works as expected, including handling user interactions and potential errors.
+
+User Guide: Create a brief user guide or README that explains how to use your application. Provide instructions on its features and functionality.
+
+Submission: Submit the source code of your Java Swing application along with any necessary resources (e.g., images) and the user guide or README.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Application Type: The chosen application type should be relevant and demonstrate your understanding of GUI components.
+
+Java Swing Usage: Effective use of Java Swing components to build the GUI.
+
+Functionality: The application should provide basic but functional features based on its type.
+
+User Interaction: Proper event handling for user interactions with GUI components.
+
+Error Handling: Graceful handling of potential issues or errors.
+
+Design and Layout: Well-organized and user-friendly design and layout.
+
+Documentation: Clear code comments and user guide/README.
+
+Testing: Thorough testing to ensure the application works as expected.

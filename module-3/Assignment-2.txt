@@ -1,0 +1,44 @@
+HashMap Implementation
+Objective: To deepen students' knowledge of Java's Map interface and HashMap.
+
+Task: In this assignment, you will implement a simplified version of a HashMap data structure. This assignment will help you understand the key principles of HashMaps, including key-value pairs, hashing, and handling collisions using linked lists.
+
+Instructions:
+
+HashMap Class: Create a Java class named CustomHashMap that will serve as your custom implementation of a HashMap.
+
+Initialization: Implement a constructor for CustomHashMap that initializes the internal data structures needed for storing key-value pairs. You can use an array (bucket) of linked lists to handle collisions.
+
+Key-Value Pair Storage: Implement methods to add key-value pairs to the HashMap. You should have at least the following methods:
+
+put(key, value): Add a key-value pair to the HashMap.
+get(key): Retrieve the value associated with a given key.
+remove(key): Remove a key-value pair based on the key.
+containsKey(key): Check if the HashMap contains a specific key.
+Hashing Function: Create a hashing function that maps keys to indices in the array (bucket). You can use a simple hash code function like hashCode() % bucketSize, where bucketSize is the number of buckets in your array.
+
+Collision Handling: When two keys produce the same hash code (collision), you should store them in a linked list within the same bucket. Implement this collision handling mechanism in your CustomHashMap.
+
+Testing: Create a test program that demonstrates the functionality of your CustomHashMap. Test cases should include adding key-value pairs, retrieving values by keys, removing pairs, and checking for key existence.
+
+Documentation: Include comments and documentation in your code to explain how the HashMap implementation works and how to use it.
+
+Complexity Analysis: Provide an analysis of the time complexity of your HashMap operations (e.g., put, get, remove) in terms of the number of key-value pairs and the number of buckets.
+
+Submission: Submit the source code file (.java) for your CustomHashMap class along with a test program that demonstrates its functionality.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+HashMap Implementation: The CustomHashMap class should correctly implement the required methods for adding, retrieving, removing, and checking for keys.
+
+Collision Handling: The assignment should demonstrate the correct handling of collisions using linked lists within buckets.
+
+Testing: The test program should thoroughly test the HashMap's functionality, including adding, retrieving, removing, and checking for keys.
+
+Code Quality: The code should be well-structured, follow Java naming conventions, and include comments and documentation.
+
+Complexity Analysis: The assignment should include a thoughtful analysis of the time complexity of HashMap operations.
+
+Submission: The assignment should be submitted with the required source code file and a test program that demonstrates the HashMap's functionality.

@@ -1,0 +1,55 @@
+Advanced Desktop GUI Application (JavaFX)
+Objective: To explore more advanced GUI development with JavaFX.
+
+Task: In this assignment, you will create an advanced desktop application with a rich graphical user interface (GUI) using JavaFX. This assignment is designed to challenge you to build a feature-rich application that showcases JavaFX's capabilities for creating modern and interactive user interfaces.
+
+Assignment Instructions:
+
+Choose an Advanced Application Type: Select the type of advanced desktop application you want to create using JavaFX. Here are a few ideas:
+
+Multimedia Player: Develop a multimedia player capable of playing audio and video files. Implement features like play, pause, volume control, and playlist management.
+Image Editor: Create a versatile image editing application with tools for cropping, resizing, applying filters, and other image manipulation features.
+Music or Video Streaming App: Build an app that allows users to stream and enjoy music or video content. Implement playlists, search, and playback controls.
+Drawing or Design Tool: Design a creative drawing or graphic design application with various tools and customization options.
+Any other application that interests you and demonstrates JavaFX's capabilities.
+Use JavaFX: Implement the GUI of your application using JavaFX components. Leverage JavaFX's features for creating responsive and visually appealing user interfaces.
+
+Advanced Functionality: Your application should offer advanced features and functionality based on its type. For example:
+
+For a multimedia player, it should support various multimedia formats, display metadata, and have a user-friendly interface.
+For an image editor, it should provide a wide range of image manipulation tools and support common image file formats.
+For a streaming app, it should stream content efficiently, provide recommendations, and allow users to create playlists.
+For a drawing tool, it should offer a variety of drawing tools, colors, and export options.
+User Interaction: Implement advanced user interaction features that enhance the user experience. Include interactive components and gestures where applicable.
+
+Error Handling: Implement robust error handling to manage unexpected scenarios gracefully. Provide meaningful error messages when necessary.
+
+Design and Layout: Pay attention to the design and layout of your application. Utilize JavaFX's layout managers (e.g., VBox, HBox, GridPane) to organize components effectively.
+
+Documentation: Include comments and documentation in your code to explain the functionality of different components and classes.
+
+Testing: Rigorously test your advanced desktop application to ensure all features work as expected, and the user interface is responsive and visually appealing.
+
+User Guide: Create a comprehensive user guide or README that explains how to use your application, including all its advanced features and functionality.
+
+Submission: Submit the source code of your JavaFX application along with any required resources (e.g., multimedia files, images) and the user guide or README.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Application Type: The chosen advanced application type should be relevant and demonstrate JavaFX's capabilities effectively.
+
+JavaFX Usage: Effective use of JavaFX components to build a rich and interactive GUI.
+
+Advanced Functionality: The application should offer advanced and relevant features based on its type.
+
+User Interaction: Implementation of advanced user interaction features that enhance the user experience.
+
+Error Handling: Robust error handling to manage unexpected scenarios gracefully.
+
+Design and Layout: A well-organized and visually appealing design and layout.
+
+Documentation: Clear code comments and a comprehensive user guide or README.
+
+Testing: Thorough testing to ensure all advanced features work as expected.

@@ -1,0 +1,50 @@
+Custom Exception Classes
+Objective: To practice creating custom exception classes.
+
+Task: In this assignment, you will develop a program that includes custom exception classes for specific error scenarios. The goal is to enhance your understanding of creating and using custom exceptions in Java.
+
+Instructions:
+
+Application Description: You are tasked with creating a simple application that simulates a banking system. Your program should handle various exceptions using custom exception classes.
+
+Custom Exception Classes: Define at least three custom exception classes for different error scenarios in your banking application. For example:
+
+InvalidInputException: This exception should be thrown when the user provides invalid input (e.g., negative amount, non-numeric characters).
+AuthenticationException: Use this exception when there are authentication errors (e.g., incorrect PIN).
+InsufficientFundsException: Throw this exception if a user attempts to withdraw more money than their account balance allows.
+Java Application: Write a Java program that simulates a bank account. Your program should allow users to perform the following operations:
+
+Check balance
+Deposit money
+Withdraw money
+Exception Handling: Implement exception handling using try-catch blocks and throw your custom exceptions as needed. For instance, if a user attempts to withdraw more money than their account balance, throw an InsufficientFundsException.
+
+User Interaction: Create a simple user interface that takes input from the user (e.g., account number, PIN, transaction amount) and processes their requests. Ensure that your program validates input and handles exceptions gracefully.
+
+Logging: Include appropriate error messages and log exceptions to the console.
+
+Testing: Test your application with different scenarios to ensure it throws and catches custom exceptions correctly.
+
+Documentation: Include comments and documentation in your code to explain how the application works, where custom exceptions are used, and how they are handled.
+
+Submission: Submit the source code file (.java) for your application.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Custom Exception Classes: You should create custom exception classes that are relevant to the scenarios in your banking application.
+
+Exception Handling: The application should effectively handle exceptions using try-catch blocks and throw custom exceptions when necessary.
+
+Functionality: The application should provide basic banking operations, such as checking the balance, depositing money, and withdrawing money.
+
+User Interaction: The user interface should be user-friendly, and the program should validate user input.
+
+Logging: The application should provide appropriate error messages and log exceptions.
+
+Testing: The application should be thoroughly tested to ensure it handles different scenarios correctly.
+
+Code Quality: The code should be well-structured, follow Java naming conventions, and include comments and documentation.
+
+Submission: The assignment should be submitted with the required source code file and any additional documentation.

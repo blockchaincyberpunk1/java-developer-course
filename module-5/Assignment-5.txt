@@ -1,0 +1,58 @@
+Building a Blogging Platform (Optional)
+Objective: To apply Servlets, JSP, or Spring Boot to create a more complex web application.
+
+Task: In this optional assignment, you will have the opportunity to challenge yourself by developing a full-fledged blogging platform using Servlets and JSP (or Spring Boot, if you choose). The goal of this assignment is to integrate various web development concepts and showcase your skills in creating a complex web application.
+
+Assignment Instructions:
+
+Set Up Your Development Environment: Ensure that you have a Java development environment set up, including an IDE (e.g., IntelliJ IDEA, Eclipse) and Maven or Gradle for managing dependencies.
+
+Define the Requirements: Clearly define the requirements and features of your blogging platform. Consider the following functionalities:
+
+User registration and authentication.
+Creating, editing, and deleting blog posts.
+Viewing a list of blog posts with pagination.
+Commenting on blog posts.
+User profiles and avatars.
+Tags and categories for organizing posts.
+Choose Your Technology Stack:
+
+Option 1: Servlets and JSP
+
+Develop the blogging platform using Servlets for handling HTTP requests and JSP for rendering dynamic web pages.
+Create a database schema to store user data, blog posts, comments, and other relevant information.
+Implement CRUD (Create, Read, Update, Delete) operations for blog posts and comments.
+Implement user registration and authentication with password hashing.
+Design user-friendly web pages for creating and managing blog posts.
+Option 2: Spring Boot
+
+Build the blogging platform using Spring Boot for rapid development.
+Utilize Spring Security for user registration and authentication.
+Implement RESTful APIs for creating, editing, and deleting blog posts.
+Use Spring Data JPA to interact with a relational database for data storage.
+Design a responsive front-end using HTML, CSS, and JavaScript frameworks like Bootstrap or Thymeleaf.
+Database Integration: If you choose the Servlets and JSP option, implement a database (e.g., H2, MySQL) to store user data, blog posts, comments, and other necessary information. For the Spring Boot option, integrate Spring Data JPA to interact with the database.
+
+Testing: Rigorously test your blogging platform to ensure that all features work correctly. Test user registration, authentication, blog post creation, and commenting.
+
+Documentation: Include detailed documentation explaining how to run and use your blogging platform. Provide clear instructions on how to create and manage blog posts and comments.
+
+Deployment (Optional): If you want to go the extra mile, consider deploying your blogging platform to a web hosting service (e.g., Heroku, AWS, or a personal server). Include deployment instructions in your documentation.
+
+Submission: Submit the source code for your blogging platform, along with any additional documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Functionality: Your blogging platform should meet the defined requirements and offer a user-friendly experience.
+
+Code Quality: Write clean, well-structured code following Java and web development best practices.
+
+Database Integration (if applicable): If you choose the Servlets and JSP option, ensure that data is stored and retrieved correctly. For the Spring Boot option, use Spring Data JPA effectively.
+
+Testing: Thoroughly test your platform to verify its correctness. Test both normal and edge cases.
+
+Documentation: Include detailed documentation explaining how to run and use your blogging platform.
+
+Optional Deployment: If you choose to deploy your platform, ensure that it is accessible online and provide deployment instructions.

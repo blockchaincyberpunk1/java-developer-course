@@ -1,0 +1,38 @@
+Concurrent Data Structures
+Objective: To explore concurrent data structures in Java.
+
+Task: In this assignment, you will be tasked with implementing a concurrent data structure using Java's built-in concurrent collections. You will demonstrate how to use these data structures in a multithreaded environment to avoid race conditions and ensure data integrity.
+
+Instructions:
+
+Choose a Concurrent Data Structure: Depending on your instructor's choice or your interest, you can choose one of the following concurrent data structures:
+
+Concurrent Queue: Implement a concurrent queue using ConcurrentLinkedQueue or LinkedBlockingQueue. The queue should allow multiple threads to safely enqueue and dequeue elements concurrently.
+Thread-Safe Counter: Implement a thread-safe counter that can be incremented and decremented by multiple threads simultaneously. You can use AtomicInteger or AtomicLong for this purpose.
+Concurrent Operations: Write Java code to demonstrate concurrent operations on the chosen data structure. This should include scenarios where multiple threads perform operations such as enqueueing/dequeueing (for queues) or incrementing/decrementing (for counters) concurrently.
+
+Thread Synchronization: Ensure that your code handles thread synchronization and locking correctly to avoid race conditions. Use Java's built-in concurrent mechanisms for synchronization.
+
+Testing: Thoroughly test your concurrent data structure implementation with multiple threads to ensure correct behavior and data integrity. Create test cases that simulate concurrent access patterns.
+
+Documentation: Include comments and documentation in your code to explain how the concurrent data structure works and how you have ensured thread safety.
+
+Performance Analysis: Optionally, you can perform performance analysis to compare the performance of your concurrent data structure with a non-concurrent (synchronized) version of the same data structure.
+
+Submission: Submit the source code file (.java) for your concurrent data structure implementation, including any additional documentation.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Correctness: Your concurrent data structure should correctly handle concurrent operations without race conditions or data corruption.
+
+Concurrency Handling: You should demonstrate an understanding of Java's concurrent mechanisms for thread synchronization.
+
+Testing: Thorough testing should be conducted to verify the correctness and thread safety of your concurrent data structure.
+
+Documentation: The code should include comments and documentation explaining how the concurrent data structure works and how thread safety is ensured.
+
+Performance Analysis (Optional): If you choose to perform performance analysis, it should be included and well-documented in your submission.
+
+Submission: The assignment should be submitted with the required source code file and any additional documentation.

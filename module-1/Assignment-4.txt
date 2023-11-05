@@ -1,0 +1,58 @@
+Loops and Iteration
+Objective: To practice loop structures in Java.
+
+Task: In this assignment, you will create a Java program that focuses on using loop structures (e.g., for, while) to perform a specific task. You have the choice between two tasks:
+
+Task 1: Print a Triangle
+Write a Java program that takes an integer input from the user and prints a triangle pattern of asterisks (*). The number of rows in the triangle should be equal to the input number. For example, if the user enters 5, the program should print:
+
+markdown
+Copy code
+*
+**
+***
+****
+*****
+OR
+
+Task 2: Calculate Sum of Integers
+Write a Java program that calculates and prints the sum of integers within a given range. The program should take two integer inputs from the user: a starting number and an ending number (inclusive). It should then calculate the sum of all integers between these two numbers and display the result.
+
+Instructions:
+
+Create a Java Class: Write a Java class with the following structure:
+
+java
+Copy code
+import java.util.Scanner;
+
+public class LoopAssignment {
+    public static void main(String[] args) {
+        // Your code goes here
+    }
+}
+User Input: Inside the main method, use the Scanner class to take user input for either Task 1 or Task 2, depending on your choice.
+
+Implement the Task: Write the code to either print the triangle pattern (Task 1) or calculate the sum of integers within the given range (Task 2). You should use loop structures (e.g., for or while) to achieve this.
+
+Display Output: Print the result of the task to the console.
+
+Compile and Run: Compile your Java program and execute it. Test the program with different inputs to ensure it functions correctly.
+
+Submission: Submit your Java source code (the .java file) along with any comments or observations about your experience.
+
+Evaluation Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+User Input: The program should successfully take user input for the chosen task.
+
+Task Implementation: The code should correctly implement the chosen task, whether it's printing the triangle pattern (Task 1) or calculating the sum of integers (Task 2).
+
+Output: The program should display the result of the task accurately and clearly.
+
+Code Quality: The code should be well-organized and follow Java naming conventions. Use meaningful variable names and proper indentation.
+
+Execution: The program should execute without errors and provide the correct results for different inputs.
+
+Submission: The assignment should be submitted with all required files, and any relevant comments or observations should be included.
